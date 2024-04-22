@@ -11,6 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DHost", "D3DHost\D3DHost.
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DHost.DotNet6", "D3DHost.DotNet6\D3DHost.DotNet6.csproj", "{4E98819E-2390-49A1-8B37-CAE07FFAAA4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D5BEAFFB-1AA5-4F05-B933-9B1806418D72} = {D5BEAFFB-1AA5-4F05-B933-9B1806418D72}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
