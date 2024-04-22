@@ -166,11 +166,6 @@ namespace D3DHost
             }
         }
 
-        void btnHello_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Aha~");
-        }
-
         DispatcherTimer _sizeTimer;
         DispatcherTimer _adapterTimer;
         TimeSpan _lastRender;
